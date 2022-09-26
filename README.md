@@ -1,8 +1,14 @@
-# M5Template-C-CPP
-Template for M5Stack C and CPP projects.
+# M5Module-2Relay
 
-## Steps
+## Overview
 
-1. Change [clang format check path](./.github/workflows/clang-format-check.yml#L9-L15).
-2. Add License content to [LICENSE](/LICENSE).
-3. Change this [README.md](./README.md#L1-L8).
+Contains case programs of M5Stack MODULE 2RELAY.
+
+## Related Link
+
+- [Document & Datasheet - MODULE 2RELAY](https://docs.m5stack.com/en/module/2Relay%2013.2%20Module)
+- [I2C Protocol](https://github.com/m5stack/M5Module-AC-2Relay/blob/main/docs/2RELAY.pdf)
+
+## License
+
+- [MODULE_2RELAY - MIT](LICENSE)
