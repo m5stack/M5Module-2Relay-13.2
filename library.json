@@ -1,5 +1,5 @@
 {
-  "name": "MODULE_AC_2RELAY",
+  "name": "MODULE_2RELAY",
   "description": "Library for M5Stack MODULE 2RELAY",
   "keywords": "M5Stack MODULE 2RELAY",
   "authors": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m5stack/MODULE_AC_2RELAY.git"
+    "url": "https://github.com/m5stack/MODULE_2RELAY.git"
   },
   "version": "0.0.1",
   "frameworks": "arduino",

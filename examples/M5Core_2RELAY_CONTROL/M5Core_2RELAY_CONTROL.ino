@@ -3,23 +3,23 @@
 * Copyright (c) 2022 by M5Stack
 *                  Equipped with M5Core sample source code
 *                          配套  M5Core 示例源代码
-* Visit the website for more
+* Visit for more
 *information：https://docs.m5stack.com/en/module/2Relay%2013.2%20Module
-* 获取更多资料请访问：https://docs.m5stack.com/en/module/2Relay%2013.2%20Module
+* 获取更多资料请访问：https://docs.m5stack.com/zh_CN/module/2Relay%2013.2%20Module
 *
-* describe: Module 2Relay.
-* date：2022/09/26
+* Product: Module 2Relay.
+* Date：2022/09/26
 *******************************************************************************
 */
 
 #include <M5Stack.h>
-#include "MODULE_AC_2RELAY.h"
+#include "MODULE_2RELAY.h"
 #include <M5GFX.h>
 
 M5GFX display;
 M5Canvas canvas(&display);
 
-MODULE_AC_2RELAY RELAY;
+MODULE_2RELAY RELAY;
 
 void drwaRect() {
     canvas.fillSprite(0);
@@ -41,7 +41,7 @@ void drwaRect() {
 
 void setup() {
     M5.begin();  // Init M5Stack.  初始化M5Stack
-    while (!RELAY.begin(&Wire, 21, 22, MODULE_AC_2RELAY_ADDR)) {
+    while (!RELAY.begin(&Wire, SDA, SCL, MODULE_2RELAY_ADDR)) {
         Serial.println("AC 2RELAY INIT ERROR");
         delay(1000);
     };
